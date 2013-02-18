@@ -52,7 +52,7 @@ function dateRangePartition(size, partitionHint) {
 
     if (distance(factor) < distance(closest)) {
 
-      return (interval = [closest = factor, Math.floor(usize / 1000), mult + unit]);
+      return (interval = [closest = factor, mult * usize, mult + unit]);
     }
   });
   _ref = interval, count = _ref[0], interval = _ref[1], intervalName = _ref[2];
