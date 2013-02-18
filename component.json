@@ -1,0 +1,13 @@
+{
+  "name": "date-range-partition",
+  "repo": "karlbohlmark/date-range-partition",
+  "description": "Partition a date range in friendly ticks",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
